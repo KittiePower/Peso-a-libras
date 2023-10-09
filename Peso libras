@@ -1,0 +1,51 @@
+/******************************************************************************
+“Peso libras”
+Nombre: Elisa Michelle Medina Vázquez 
+Fecha: 230822
+*******************************************************************************/
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    
+    int peso;
+	cout<<"Peso en libras:"<<endl;
+	cin>>peso;
+	
+	if (peso>30){
+		cout<<"Demasiado peso"<<endl;
+		cout<<"nivel=N/A"<<endl;
+
+}		
+else
+		if (peso>=22){
+			 cout<<"nivel=maximo"<<endl;
+			  cout<<"litros=62"<<endl;
+
+}		
+else
+			if (peso>=15){
+				 cout<<"nivel=alto"<<endl;
+				  cout<<"litros=42"<<endl;
+
+
+
+}
+else
+				if (peso>=9){
+					cout<<"nivel=medio"<<endl;
+					 cout<<"litros=39"<<endl;
+
+
+
+}				 
+else	
+				if (peso=8){
+				 cout<<"nivel=minimo"<<endl;
+				  cout<<"litros=20"<<endl;
+ 
+return 0;
+
+}
+}
